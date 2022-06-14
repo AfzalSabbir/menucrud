@@ -70,7 +70,7 @@ Route::group(['prefix' => config('backpack.base.route_prefix', 'admin'), 'middle
 1) In your terminal, run:
 
 ``` bash
-composer require backpack/menucrud
+composer require afzalsabbir/menucrud
 ```
 
 2) Publish the migration:
