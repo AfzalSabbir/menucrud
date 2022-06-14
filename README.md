@@ -18,7 +18,7 @@ Usually used for front-end menus, not back-end. Adding a menu item in MenuCRUD w
 
 ## Install
 
-This needs [Backpack\PageManager](https://github.com/Laravel-Backpack/pagemanager) to be installed first. If you haven't already, please do that first.
+This needs [AfzalSabbir\PageManager](https://github.com/AfzalSabbir/pagemanager) to be installed first. If you haven't already, please do that first.
 
 Since MenuCRUD is just a Backpack\CRUD example, you can choose to install it one of two ways.
 
@@ -35,7 +35,7 @@ The only PRO of installing it as a package is that you may benefit from updates.
 #### Installation type (A) - download
 
 
-1) [Download the latest build](https://github.com/Laravel-Backpack/MenuCRUD/archive/master.zip).
+1) [Download the latest build](https://github.com/AfzalSabbir/MenuCRUD/archive/master.zip).
 
 2) Paste the 'app' and 'database' folders over your projects (merge them). No file overwrite warnings should come up.
 
