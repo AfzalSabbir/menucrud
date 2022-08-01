@@ -52,6 +52,10 @@
                     class="form-control"
                     for="{{ $field['name']['page_id'] }}"
                     required
+
+                    @if (isset($entry) && $entry->{$field['name']['type']} !== 'page_link')
+                        disabled="disabled"
+                    @endif
                     >
                     @foreach ($field['pages'] as $page)
                         <option value="{{ $page->id }}"
